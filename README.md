@@ -21,9 +21,3 @@ The project showcases the speed and ease of using ChatGPT to develop feature-ric
 ## Demonstration
 
 A silent tutorial showcasing the development of this application is available on my YouTube channel: [Your YouTube link here]
-
----
-
-Remember to replace "[Your YouTube link here]" with the actual link to your video. It's good practice to include links to related resources for anyone who might be interested in the project.
-
-Also, the "Usage" section should include detailed instructions on how to use the application and any prerequisites or setup instructions. This would help users to use your project effectively.
