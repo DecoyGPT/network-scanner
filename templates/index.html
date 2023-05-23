@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Scanner</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Connected Devices</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>IP Address</th>
+                    <th>MAC Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for device in devices %}
+                <tr>
+                    <td>{{ device.ip }}</td>
+                    <td>{{ device.mac }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
